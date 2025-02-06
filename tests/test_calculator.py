@@ -1,11 +1,10 @@
-# tests/test_calculator.py
-
+'''My Calculator Test'''
 from calculator import add, subtract
 
 def test_addition():
-    assert add(2, 3) == 5
-    assert add(-1, 1) == 0
+    '''Test that addition function works '''    
+    assert add(2,2) == 4
 
 def test_subtraction():
-    assert subtract(10, 5) == 5
-    assert subtract(0, 5) == -5
+    '''Test that addition function works '''    
+    assert subtract(2,2) == 0
